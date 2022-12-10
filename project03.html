@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<link rel="icon" type="image/x-icon" href="assets/anchor.ico" />
+    <title>Case Study of Speech Separation</title>
+    <meta name="description" content="Portfolio Template for Developer" />
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+
+    <header class="header">
+      <div class="header__content">
+        <div class="header__logo-container">
+          <div class="header__logo-img-cont dynamicBgClr">
+            <img
+              src="./assets/navigatebar/rashadalison.jpg"
+              alt="Rashad Alison Logo Image"
+              class="header__logo-img"
+            />
+          </div>
+          <span class="header__logo-sub">郭胜保</span>
+        </div>
+        <div class="header__main">
+          <ul class="header__links">
+            <li class="header__link-wrapper">
+              <a href="./index.html" class="header__link"> Home </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#about" class="header__link">About </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#projects" class="header__link">
+                Projects
+              </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#contact" class="header__link"> Contact </a>
+            </li>
+          </ul>
+          <div class="header__main-ham-menu-cont">
+            <img
+              src="./assets/svg/ham-menu.svg"
+              alt="hamburger menu"
+              class="header__main-ham-menu"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="header__sm-menu">
+        <div class="header__sm-menu-content">
+          <ul class="header__sm-menu-links">
+            <li class="header__sm-menu-link">
+              <a href="./index.html"> Home </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#about"> About </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#projects"> Projects </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#contact"> Contact </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <div class="themeClrSelector">
+      <input type="color" value="#0078d7" class="themeClrSelector__input" />
+      <img
+        src="https://img.icons8.com/fluent/48/000000/rgb-circle-1.png"
+        class="themeClrSelector__img"
+      />
+    </div>
+
+    <section class="project-cs-hero dynamicBg">
+      <div class="project-cs-hero__content">
+        <h1 class="heading-primary">基于Dual-path RNN的多模态语音分离算法</h1>
+        <div class="project-cs-hero__info">
+          <p class="text-primary">
+            Multimodal speech separation algorithm based on Dual-path RNN
+          </p>
+        </div>
+
+        <div class="project-cs-hero__cta">
+          <a href="assets/projiect/AVSpeechSeparation.mp4" class="btn btn--bg" target="_blank">explore the project</a>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="project-details">
+      <div class="main-container">
+        <div class="project-details__content">
+
+          <div class="project-details__showcase-img-cont">
+            <img
+              src="./assets/projiect/Surface-AV.svg"
+              alt="Project Image"
+              class="project-details__showcase-img"
+            />
+            <img
+              src="./assets/projiect/AV01.svg"
+              alt="Project Image"
+              class="project-details__showcase-img"
+            />
+			<img
+              src="./assets/projiect/AV02.svg"
+              alt="Project Image"
+              class="project-details__showcase-img"
+            />
+          </div>
+
+          <div class="project-details__content-main">
+            <div class="project-details__desc">
+              <h3 class="project-details__content-title">Project Overview</h3>
+              <p class="project-details__desc-para">
+                视听多模态建模已被验证在与语音分离的任务中性能表现优异,本项目提出一种语音分离模型,对现有的时域音视频联合语音分离算法进行改进,增强音视频流之间的联系。
+              </p>
+              <p class="project-details__desc-para">
+                针对现有音视频分离模型联合度不高的情况,我们提出一种在时域上将语音特征与额外输入的视觉特征进行多次融合,并加入纵向权值共享的端到端的语音分离模型。
+              </p>
+              <p class="project-details__desc-para">
+                在LRS2数据集上的实验结果表明,该网络与仅使用音频的双路径卷积神经网络(Dual-path RNN)和音视频联合的Dual-path RNN相比,性能上获得了0.97 dB的改善。
+              </p>
+            </div>
+            <div class="project-details__tools-used">
+              <h3 class="project-details__content-title">Tools Used</h3>
+              <div class="skills">
+                <div class="skills__skill">Python</div>
+                <div class="skills__skill">PyQt5</div>
+                <div class="skills__skill">Dual-path RNN</div>
+                <div class="skills__skill">理想比值掩蔽（IRM）</div>
+                <div class="skills__skill">理想二值掩蔽（IBM）</div>
+                <div class="skills__skill">置换不变训练（PIT）</div>
+                <div class="skills__skill">Conv-TasNet</div>
+              </div>
+            </div>
+            <div class="project-details__links">
+              <h3 class="project-details__content-title">View More</h3>
+              <a
+                href="assets/projiect/AVSpeechSeparation.mp4" target="_blank"
+                class="btn btn--med btn--theme project-details__links-btn dynamicBgClr"
+                >explore the project</a
+              >
+
+              <a
+                href="./index.html#projects"
+                class="btn btn--med btn--theme-inv project-details__links-btn dynamicBrdrClr"
+                >Go Back</a
+              >
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <footer class="main-footer">
+      <div class="main-container">
+        <div class="main-footer__upper">
+          <div class="main-footer__row main-footer__row-1">
+            <h2 class="heading heading-sm main-footer__heading-sm">
+              <span>Social</span>
+            </h2>
+            <div class="main-footer__social-cont">
+
+              <a target="_blank" rel="noreferrer" href="https://www.linkedin.cn/incareer/in/alison-rashad-981229154">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/social/linkedin-ico.png"
+                  alt="icon"
+                />
+              </a>
+
+              <a target="_blank" rel="noreferrer" href="https://github.com/RashadAlison">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/social/github-ico.png"
+                  alt="icon"
+                />
+              </a>
+
+              <a target="_blank" rel="noreferrer">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/social/twitter-ico.png"
+                  alt="icon"
+                />
+              </a>
+
+              <a target="_blank" rel="noreferrer" href="./assets/social/wechat.jpg">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/social/wechat-ico.png"
+                  alt="icon"
+                />
+              </a>
+
+              <a target="_blank" rel="noreferrer">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/social/yt-ico.png"
+                  alt="icon"
+                />
+              </a>
+
+              <a target="_blank" rel="noreferrer" >
+                <img
+                  class="main-footer__icon main-footer__icon--mr-none"
+                  src="./assets/social/insta-ico.png"
+                  alt="icon"
+                />
+              </a>
+
+            </div>
+          </div>
+          <div class="main-footer__row main-footer__row-2">
+            <h4 class="heading heading-sm text-lt">郭胜保</h4>
+            <p class="main-footer__short-desc">
+              专注于语音前端的算法工程师
+            </p>
+
+            <p class="main-footer__short-desc">
+              做过图像生成，正在做多模态语音分离，致力于分离出更纯净的语音
+            </p>
+          </div>
+        </div>
+
+        <div class="main-footer__lower">
+          &copy; Copyright 2022. Made by Rashad Alison
+<!--          &copy; Copyright 2022. Made by <a rel="noreferrer" target="_blank" href="https://github.com/RashadAlison">Rashad Alison</a>-->
+        </div>
+      </div>
+    </footer>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
