@@ -479,7 +479,10 @@ textarea {
   width: 100%; }
 
 .project-details__showcase-img1 {
- }
+  display: block;
+  width: 70%;
+  margin: auto;
+}
 
 .project-details__content-main {
   width: 100%;
